@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { generateViralScript, generateScriptAudio, generateHookVisual } from '../services/geminiService';
+import { generateViralScript, generateScriptAudio, generateHookVisual } from '../geminiService';
 import { ViralScript, UserProfile } from '../types';
 import { SidebarAd } from './AdPlaceholders';
 import { authService } from '../services/authService';
