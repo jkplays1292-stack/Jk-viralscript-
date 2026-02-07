@@ -10,6 +10,7 @@ import AuthModal from './components/AuthModal';
 import RefillModal from './components/RefillModal';
 import PlatformCarousel from './components/PlatformCarousel';
 import ContactPage from './components/ContactPage';
+import ContactPage from './components/ContactPage';
 import PrivacyPage from './components/PrivacyPage';
 import TermsPage from './components/TermsPage';
 import AboutPage from './components/AboutPage';
