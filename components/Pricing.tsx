@@ -1,8 +1,7 @@
 
 import React, { useState } from 'react';
 import { UserType, UserProfile } from '../types';
-import { initializeRazorpayPayment } from '../services/paymentService';
-
+import { paymentService } from '../paymentService';
 interface PricingProps {
   user: UserProfile | null;
   onUpgrade: (tier: UserType) => void;
