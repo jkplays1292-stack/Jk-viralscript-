@@ -13,7 +13,7 @@ import PrivacyPage from "./PrivacyPage";
 import TermsPage from "./TermsPage";
 import AboutPage from "./AboutPage";
 import { UserProfile, UserType } from './types';
-import { authService } from './services/authService';
+import { authService } from "./authService";
 
 type View = 'home' | 'privacy' | 'terms' | 'contact' | 'about';
 
