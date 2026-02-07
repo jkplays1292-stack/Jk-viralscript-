@@ -8,12 +8,10 @@ import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import AuthModal from './components/AuthModal';
 import RefillModal from './components/RefillModal';
-import PlatformCarousel from './components/PlatformCarousel';
-import ContactPage from './components/ContactPage';
-import ContactPage from './components/ContactPage';
-import PrivacyPage from './components/PrivacyPage';
-import TermsPage from './components/TermsPage';
-import AboutPage from './components/AboutPage';
+import ContactPage from "./ContactPage";
+import PrivacyPage from "./PrivacyPage";
+import TermsPage from "./TermsPage";
+import AboutPage from "./AboutPage";
 import { UserProfile, UserType } from './types';
 import { authService } from './services/authService';
 
